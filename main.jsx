@@ -1,12 +1,16 @@
+// @ts-check
 import React from 'react';
-
 import ReactDOM from 'react-dom';
 
-const Hello = ({who}) => <p>Hello {who}</p>;
+/**
+ * @typedef HelloProps
+ * @property {string} who
+ */
 
-// Hello.propTypes = {
-//   who: PropTypes.string.isRequired
-// };
+/**
+ * @param {HelloProps} props
+ */
+const Hello = ({who}) => <p>Hello {who}</p>;
 
 const App = () => (
   <>
