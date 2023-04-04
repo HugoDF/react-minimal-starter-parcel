@@ -1,13 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import ReactDOM from 'react-dom';
 
 const Hello = ({who}) => <p>Hello {who}</p>;
 
-Hello.propTypes = {
-  who: PropTypes.string.isRequired
-};
+// Hello.propTypes = {
+//   who: PropTypes.string.isRequired
+// };
 
 const App = () => (
   <>
