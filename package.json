@@ -1,40 +1,22 @@
 {
   "name": "react-minimal-starter-parcel",
   "private": true,
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "start": "parcel serve index.html",
-    "build": "parcel build index.html",
-    "lint": "xo .",
-    "format": "xo . --fix"
+    "build": "parcel build index.html"
   },
   "author": "Hugo Di Francesco",
   "dependencies": {
-    "parcel-bundler": "^1.12.3",
-    "react": "^17.0.0",
-    "react-dom": "^17.0.1"
+    "parcel": "2.8.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
-  "main": "main.js",
   "keywords": [
     "react",
     "react-boilerplate",
-    "parcel-bundler"
+    "parcel"
   ],
   "license": "MIT",
-  "description": "Simple React starter with Parcel (2 files)",
-  "devDependencies": {
-    "eslint-config-xo-react": "^0.25.0",
-    "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^4.0.0",
-    "prop-types": "^15.7.2",
-    "xo": "latest"
-  },
-  "xo": {
-    "extends": "xo-react",
-    "prettier": true,
-    "space": true,
-    "globals": [
-      "document"
-    ]
-  }
+  "description": "Simple React starter with Parcel (2 files)"
 }
