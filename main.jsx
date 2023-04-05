@@ -1,6 +1,6 @@
 // @ts-check
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 
 /**
  * @typedef HelloProps
@@ -22,4 +22,5 @@ const App = () => (
   </>
 );
 
-ReactDOM.render(<App />, document.querySelector('#app'));
+// @ts-ignore
+ReactDOM.createRoot(document.querySelector('#app')).render(<App />);
