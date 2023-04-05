@@ -18,5 +18,8 @@
     "parcel"
   ],
   "license": "MIT",
-  "description": "Simple React starter with Parcel (2 files)"
+  "description": "Simple React starter with Parcel (2 files)",
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
 }
